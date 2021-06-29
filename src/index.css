@@ -1,0 +1,677 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1D243E;
+
+}
+@font-face {
+  font-family: AvenirNextReg;
+  src: url(./styles/fonts/Metropolis-Regular.otf);
+}
+@font-face {
+  font-family: AvenirNextThin;
+  src: url(./styles/fonts/Metropolis-Thin.otf);
+}
+@font-face {
+  font-family: AvenirNextELight;
+  src: url(./styles/fonts/Metropolis-ExtraLight.otf);
+}
+@font-face {
+  font-family: AvenirNextBold;
+  src: url(./styles/fonts/Metropolis-Bold.otf);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p ,h1 ,h2, h3 ,h4 ,h5
+{
+  padding: 0px;
+  height: 0px;
+}
+.bckground-color{
+  background-color: #1D243E;
+}
+.bckground-color-inner{
+  background-color: #262F51;
+}
+.flex-box
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ max-width: 786px;
+margin: auto;
+height: 100vh;
+width: 94%;
+flex-direction: column;
+
+
+}
+.padding-inner
+{
+  padding: 0 3%;
+}
+.p-0
+{
+  padding: 0px;
+}
+.m-0
+{
+  margin: 0px;
+}
+.txt-left
+{
+  text-align: left;
+}
+.txt-center
+{
+text-align: center;
+}
+.txt-right
+{
+text-align: right;
+}
+.logo
+{
+  width: 153px;
+
+}
+.w-100
+{
+  width: 100%;
+}
+.h-100
+{
+  height: 100%;
+}
+.cst-modal-1
+{
+  width: 486px;
+  background-color: #262c46;
+  color: white;
+  padding-bottom: 25px;
+}
+.d-flex
+{
+  justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+  width: 54px;
+height: 43px;
+background: transparent linear-gradient(90deg, #1494C2 0%, #09D9EC 100%) 0% 0% no-repeat padding-box;
+}
+.flex-sm
+{display: flex;
+  justify-content: center;
+  flex-direction: row;}
+
+  .d-flex-btn
+  {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top:5% ;
+    cursor: pointer;
+}
+.d-flex-btn-new
+  {
+    justify-content: space-between;
+        align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top:5% ;
+}
+  .d-flex-card
+  {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+
+}
+.btn-normal
+{
+  background: transparent linear-gradient(90deg, #1494C3 0%, #09D9EC 100%, #808080 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000053;
+opacity: 1;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+    border: none;
+    font-size: 28px;
+    font-family: AvenirNextBold;
+    color: white;
+}
+.btn-normal:hover
+{
+  background: transparent linear-gradient(90deg, #3dc4fa 0%, #2bd9e9 100%, #808080 100%) 0% 0% no-repeat padding-box;
+cursor: pointer;
+}
+
+.btn-normal1
+{
+  background: transparent linear-gradient(90deg, #ED4C2F 0%, #EB653C 100%, #808080 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000053;
+opacity: 1;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+    border: none;
+    font-size: 28px;
+    font-family: AvenirNextBold;
+    color: white;
+}
+.btn-normal1:hover
+{
+  background: transparent linear-gradient(90deg, #ff5334 0%, #ff6030 100%, #808080 100%) 0% 0% no-repeat padding-box;
+cursor: pointer;
+}
+.bg-img
+{
+  background-image:url("./images/map.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.ft-av-nex-reg
+{
+  font: AvenirNextReg;
+}
+.ft-av-nex-thin
+{
+  font: AvenirNextThin;
+}
+.title-font
+{
+  font-size: 26px;
+  margin-top: -10px;
+    padding: 0px;
+  color: white;
+}
+.status-font
+{
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #B5B5B5;
+}
+.status-font-1
+{
+  font-size: 20px;
+  margin-top: 20px;
+  color: #B5B5B5;
+}
+.status-font-2
+{
+  font-size: 16px;
+  margin-top: 20px;
+  color: #B5B5B5;
+}
+.status-msg
+{
+
+  text-align: left;
+  letter-spacing: 0px;
+  color: #B5B5B5;
+  font-family: AvenirNextELight;
+  font-size:1.2rem;
+  margin-top: 20px;
+}
+.icon-stl-cst
+{
+  margin-top: 20px;
+  margin-right: 22px;
+}
+.identity-text
+{
+  font-family: AvenirNextBold;
+  text-transform:uppercase;
+}
+.cl-prm
+{
+     color: #129CC7;
+  
+}
+.cl-wht
+{
+     color: white;
+  
+}
+.fs-14
+{
+  font-size: 14px;
+}
+.mt-25
+{
+margin-top: 25px;
+}
+.mb-25
+{
+padding-bottom: 25px;
+}
+
+.control-right-icon
+{
+  
+  margin-top: 10%;
+  font-size: 24px;
+  color: #129CC7;
+}
+
+.card-1
+{
+  background: #2C3760 0% 0% no-repeat padding-box;
+border-radius: 15px;
+opacity: 1;
+width: 95%;
+margin:auto ;
+height: 170px;
+}
+.card-2
+{
+  background: #183C4A 0% 0% no-repeat padding-box;
+border-radius: 15px;
+opacity: 1;
+width: 95%;
+margin:auto ;
+height: 170px;
+
+}
+.card-1-brd
+{
+  border: 1px solid #75757541;
+}
+.axis
+{
+display: none;
+}
+
+.rg-img
+{
+  width: 58px;
+  margin-top: 22px;
+  margin-right: 15px;
+}
+.fv-crd-head
+{
+  color: white;
+    margin-left: 15%;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2C3760; 
+  border-radius: 10px;
+  height: 10px!important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #212947; 
+}
+.map-main
+{
+  width: 80%;  margin: auto;margin-top: 5%;
+}
+
+.btn-region-select{
+  cursor: pointer;
+}
+
+.pos-menu
+{
+  position: absolute;
+right: 0;
+}
+
+.logo-img
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.color-menu-1
+{
+  color: #129CC7;
+
+}
+.menu-body
+{
+  display: flex;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.MuiMenu-paper
+{
+  background-color: #4C598D!important;
+  color: white!important;
+}
+
+.cr-prt
+{
+  cursor: pointer!important;
+
+}
+.MuiDrawer-paper
+{
+  left: 25%!important;
+}
+@media only screen and (max-width: 959px) {
+  .MuiDrawer-paper {
+    left: 0%!important;
+    }
+    .map-main{
+      display: none;
+    }
+    .MuiDrawer-paper{
+      width: 100%;
+    }
+   .region-list
+   {
+     width: 100%!important;
+   }
+   .grid-root-card
+{
+    bottom: 0%!important;
+  margin-top: 5%;
+  }
+  .region-list-header{
+    display: flex!important;
+  }
+  .card-2,.card-1
+  {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 425px) {
+ .TextFieldSize
+ {
+   width: 80%!important;
+ }
+ .log-head-det
+ {
+  margin-bottom: 48px;
+  line-height: 2rem;
+  margin-top: 41px;
+ }
+
+ .MuiFormControlLabel-root
+ {
+  margin-top: 25px!important;
+ }
+ .cstpaddding-sda{
+  padding: 16px 87px 24px!important;
+ }
+ .grid-root-card
+ {
+  top: -4%!important;
+ }
+ .cts-btn-ntl-1 {
+  margin-bottom: 20px!important;
+  margin-top: 20px!important;
+}
+.color-menu-1
+{
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+.MuiTypography-body1
+{
+  top: -22px;
+    text-align: center;
+    position: relative;
+}
+
+}
+
+
+.region-list{ background-color: #212121;width:400px }
+.region-list-header
+{
+  width: 100%;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px 38px;
+  background-color: black;
+}
+.region-backicon
+{
+  color: white;
+    font-size: 2rem;
+    padding-left: 40px;
+}.region-h2
+{
+  color: white;
+  margin-top: -9px;
+  margin-left: 52px;
+  font-family: 'AvenirNextBold';
+}
+
+.grid-root-card
+{
+  flex-grow: 1;
+  position: relative;
+  top: 8%;
+}
+.TextFieldSize
+{
+  width: 60%;
+  margin-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+.MuiButton-containedPrimary{
+  font-size: 25px!important;
+  color: white!important;
+}
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgb(255 255 255)!important;
+  border-radius: 10px!important;
+}
+.MuiCheckbox-root
+{
+  color: #B5B5B5!important;
+}
+.ftg-pass
+{
+  margin-top: 20px;
+  font-size: 1.1rem;
+  margin-right: 16px;
+}
+
+.MuiInput-underline:before
+{
+  border-bottom: 1px solid #ffffff!important;
+}
+.MuiInputLabel-formControl
+{
+  color: white!important;
+
+}
+.MuiSelect-icon
+{
+  color: white!important;
+}
+.cstaccount
+{
+  margin-top: 30px;padding-top: 42px;
+}
+.prg-meter
+{
+  position: relative;
+    bottom: 120%;
+    left: 20%;
+}
+.prg-meter h2{
+  color: #139DC8;
+  font-size: 2.2rem;
+}
+.prg-meter h5
+{
+  color: #139DC8;
+  padding-top: 12px;
+  font-size: 0.8rem;
+  margin-left: 20px;
+}
+.h-200
+{
+  height: 140px;
+}
+.MuiSwitch-root .Mui-checked 
+{
+  left: 5px!important;
+}
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track,.MuiSwitch-track {
+  background-color: transparent!important;
+  border: 2px solid #0ebbda;
+  height: 12px!important;
+}
+.MuiIconButton-label
+{
+  position: relative;
+    top: 1px;
+}
+.MuiSwitch-switchBase {
+color: #0ebbda!important;
+}
+.MuiSwitch-root
+{
+  width: 65px!important;
+}
+.MuiSelect-select.MuiSelect-select
+{
+color: white!important;
+}
+.stelth-box
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}.toggle-img
+{
+  width: 28px;
+  margin-top: -6px;
+  margin-left: 6px;
+}
+.toggleParent{
+  width:61px;height:10px
+}
+.MuiDrawer-paper
+{
+  background-color: #000000!important;
+}
+
+.pd30pr
+{
+  padding-top:15%
+}
+@media only screen and (max-width: 425px) {
+ .MuiCheckbox-root {
+  top: -25px; 
+}
+.MuiButton-containedPrimary{
+
+  margin-top: 13px!important  ;
+    font-size: 1.2rem!important;
+}
+}
+@media only screen and (max-width: 959px) {
+
+  .cst-modal-1{
+    width: 100%!important;
+  }
+}
+  @media only screen and (max-width: 1281px) {
+ .logo
+ {
+  width: 90px;
+ }
+ .title-font
+ {
+  font-size: 18px;
+  margin-top: -12px;
+ }
+ .status-font{
+  font-size: 1.3rem;
+  margin-top: 10px;
+ }
+ .status-msg
+ {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 1rem;
+  font-weight: bold;
+ }
+ .identity-text
+ {
+   font-size: .8rem;
+line-height: 16px;
+ }
+ .mt-25
+
+ {
+   margin-top: 15px;
+ }
+ .cts-btn-ntl
+ {
+  margin-bottom: 20px;
+  margin-top: 20px;
+ }
+ .cts-btn-ntl-1
+ {
+  margin-bottom: 40px;
+  margin-top: 40px;
+ }
+ .pd30pr
+{
+  padding-top:10%
+}
+.btn-normal,.btn-normal1{
+  width: 100px;
+    height: 100px;
+    font-size: 16px;
+}
+.toggle-img{
+  position: relative;
+    top: -13px;
+}
+.MuiSwitch-root
+{
+  top: -11px;
+}
+.card-1,.card-2
+{
+  height: 137px;
+}
+}
+.MuiDialog-paperFullScreen,.MuiDialogActions-root
+{
+  background-color: #262c46!important;
+}
